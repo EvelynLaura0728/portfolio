@@ -38,7 +38,7 @@ export const Skills = () => {
               <p >
                 I am a professional software engineer with over 12 years of experience,
                 skilled in Javascript specially Frontend.I ‘m excited to collaborate and
-                share ideas with colleagues and thinkers around me. <br /></p>
+                share ideas with colleagues and thinkers around me <br /></p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   <img src={meter1} alt="Image" />
@@ -60,10 +60,6 @@ export const Skills = () => {
                   <img src={meter3} alt="Image" />
                   <h5> NodeJS </h5>
                 </div>
-                {/* <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div> */}
               </Carousel>
             </div>
           </div>
